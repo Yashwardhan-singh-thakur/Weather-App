@@ -1,0 +1,71 @@
+.cardCon {
+  margin: 1rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  flex-wrap: wrap;
+}
+
+.weatherLoc {
+  display: flex;
+}
+
+.weatherLoc h2 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.weatherLoc > p {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: 600;
+  justify-self: flex-end;
+  line-height: 1.3rem;
+  white-space: nowrap;
+}
+
+.weatherImgIcon {
+  width: 3rem;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+}
+
+.iconCon {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.iconCon h2,
+h2 {
+  color: black;
+}
+
+.titleDes {
+  flex: 0.97;
+}
+
+.des {
+  font-size: 1rem;
+  margin-top: -0.45rem;
+  color: gray;
+}
+
+.iconCon img {
+  width: 3rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.Exinfo p {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 4.5rem;
+  white-space: nowrap;
+}

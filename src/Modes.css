@@ -1,0 +1,90 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Default (Light Mode) Styles for TextField */
+.inputDarkMode .MuiOutlinedInput-root {
+  color: #000; /* Input text color */
+  border-color: #ccc; /* Border color */
+}
+
+.dark .inputDarkMode .MuiOutlinedInput-root fieldset {
+  border: 1px solid rgba(255, 255, 255, 0.7); /* Default border color */
+}
+
+.inputDarkMode .MuiInputLabel-root {
+  color: #000; /* Label color */
+}
+
+.inputDarkMode .MuiFormHelperText-root {
+  color: #6c757d; /* Helper text color in light mode */
+}
+
+.inputDarkMode .MuiOutlinedInput-root:hover fieldset {
+  border-color: #000; /* Hover border color */
+}
+
+.inputDarkMode .Mui-focused fieldset {
+  border-color: #3f51b5; /* Focused border color */
+}
+
+/* Dark Mode Styles */
+.dark .inputDarkMode .MuiOutlinedInput-root {
+  color: #fff; /* Input text color */
+  border-color: #fff; /*Border color*/
+  background-color: #121212; /* Background color */
+}
+
+.dark .inputDarkMode .MuiInputLabel-root {
+  color: #bbb; /* Label color */
+}
+
+.dark .inputDarkMode .MuiFormHelperText-root {
+  color: #bbb; /* Helper text color in dark mode */
+}
+
+.dark .inputDarkMode .MuiOutlinedInput-root:hover fieldset {
+  border-color: #fff; /* Hover border color */
+}
+
+.dark .inputDarkMode .Mui-focused fieldset {
+  border-color: #fff; /* Focused border color */
+}
+
+/* Error State Styles */
+/* Error for the Label */
+.inputDarkMode .MuiInputLabel-root.Mui-error {
+  color: #d32f2f !important; /* Label in red for light mode */
+}
+
+.dark .inputDarkMode .MuiInputLabel-root.Mui-error {
+  color: #ff6b6b !important; /* Label in red for dark mode */
+}
+
+/* Error for Helper Text */
+.inputDarkMode .MuiFormHelperText-root.Mui-error {
+  color: #d32f2f !important; /* Helper text in red for light mode */
+}
+
+.dark .inputDarkMode .MuiFormHelperText-root.Mui-error {
+  color: #ff6b6b !important; /* Helper text in red for dark mode */
+}
+
+/* Error for the Input Border */
+.inputDarkMode
+  .MuiOutlinedInput-root.Mui-error
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #d32f2f !important; /* Border in red for light mode */
+}
+
+.dark
+  .inputDarkMode
+  .MuiOutlinedInput-root.Mui-error
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #ff6b6b !important; /* Border in red for dark mode */
+}
+
+.linksDark {
+  color: white;
+}

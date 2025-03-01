@@ -1,0 +1,45 @@
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(177, 176, 176);
+}
+
+.footMsg {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footMsg > p > i {
+  color: red;
+  font-size: 1rem;
+  animation: heartBeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.footLink {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+  gap: 0.6rem;
+}
+
+.footLink > a {
+  color: black;
+}
+
+.footLink > a :hover {
+  color: purple;
+}
+
+.footLink > a > i {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,17 @@
+h1 {
+  color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: #009dad;
+  position: relative;
+}
+
+.mode {
+  position: absolute;
+  right: 0;
+}
