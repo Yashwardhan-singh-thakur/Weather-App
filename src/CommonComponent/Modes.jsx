@@ -70,13 +70,13 @@ export default function Modes() {
     let body = document.querySelector("body");
     let input = document.querySelector(".searchInp");
     let socialLinks = document.querySelectorAll(".ftLink");
-    let card = document.querySelector("#card");
+    let card = document.querySelector(".cardCon.MuiPaper-root");
     body.classList.toggle("dark");
     input.classList.toggle("inputDarkMode");
     socialLinks.forEach((link) => {
       link.classList.toggle("linksDark");
     });
-    card.style.border = mode ? "2px solid white" : "";
+    card.classList.toggle("darkCard");
   }
 
   return (
