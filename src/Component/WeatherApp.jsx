@@ -1,9 +1,9 @@
 import InfoBox from "./InfoBox";
 import { useState, useEffect } from "react";
-import { forwardGeocoding, userLocation } from "./helper";
+import { forwardGeocoding, userLocation } from "../CommonComponent/helper";
 import SearchBox from "./SearchBox";
-import Heading from "./Heading";
-import Footer from "./Footer";
+import Heading from "../CommonComponent/Heading";
+import Footer from "../CommonComponent/Footer";
 import "./WeatherApp.css";
 
 export default function WeatherApp() {

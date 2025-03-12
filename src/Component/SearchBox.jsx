@@ -17,11 +17,6 @@ export default function SearchBox({ weatherApi, error }) {
       setIsError(true);
     }
   }
-
-  function emptyInput() {
-    setCity("");
-  }
-
   return (
     <div className="formCon">
       <form onSubmit={(e) => weatherApi(e, city)}>

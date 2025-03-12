@@ -1,7 +1,6 @@
 import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 import "./Footer.css";
-import FavoriteIcon from "@mui/icons-material/Favorite";
 
 export default function Footer() {
   return (

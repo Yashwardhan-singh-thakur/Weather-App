@@ -49,7 +49,7 @@
 }
 
 .dark .inputDarkMode .Mui-focused fieldset {
-  border-color: #fff; /* Focused border color */
+  border-color: #ffffff; /* Focused border color */
 }
 
 /* Error State Styles */

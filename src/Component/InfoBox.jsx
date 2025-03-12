@@ -7,9 +7,9 @@ import OpacityIcon from "@mui/icons-material/Opacity";
 import CardActionArea from "@mui/material/CardActionArea";
 import AirIcon from "@mui/icons-material/Air";
 import "./InfoBox.css";
-import { weatherImg } from "./weatherImg.js";
-import WeatherIcon from "./WeatherIcon.jsx";
-import { getTimeAndDayFromTimezoneOffset } from "./helper.js";
+import { weatherImg } from "../CommonComponent/weatherImg.js";
+import WeatherIcon from "../CommonComponent/WeatherIcon.jsx";
+import { getTimeAndDayFromTimezoneOffset } from "../CommonComponent/helper.js";
 
 export default function InfoBox({ weatherInfo }) {
   let cardImage = weatherImg.find((img) => {
