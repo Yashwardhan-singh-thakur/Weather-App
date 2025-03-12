@@ -63,7 +63,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 export default function Modes() {
-  let [isModes, setIsModes] = useState(false);
+  let [isModes, setIsModes] = useState(true);
 
   function handleChange() {
     setIsModes(!isModes);
