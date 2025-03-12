@@ -76,7 +76,7 @@ export default function Modes() {
     socialLinks.forEach((link) => {
       link.classList.toggle("linksDark");
     });
-    card.style.border = mode ? "2px solid red" : "";
+    card.style.border = mode ? "2px solid white" : "";
   }
 
   return (
