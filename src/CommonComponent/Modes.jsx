@@ -63,13 +63,10 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 export default function Modes() {
-  let [isModes, setIsModes] = useState(true);
+  let mode = false;
 
   function handleChange() {
-    setIsModes(!isModes);
-  }
-
-  useEffect(() => {
+    mode = !mode;
     let body = document.querySelector("body");
     let input = document.querySelector(".searchInp");
     let socialLinks = document.querySelectorAll(".ftLink");
@@ -79,14 +76,13 @@ export default function Modes() {
     socialLinks.forEach((link) => {
       link.classList.toggle("linksDark");
     });
-    card.style.border = isModes ? "2px solid white" : "";
-  }, [isModes]);
+    card.style.border = mode ? "2px solid red" : "";
+  }
 
   return (
     <FormGroup>
       <FormControlLabel
         control={<MaterialUISwitch sx={{ m: 1 }} />}
-        value={isModes}
         onChange={handleChange}
       />
     </FormGroup>

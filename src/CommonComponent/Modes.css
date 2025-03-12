@@ -88,3 +88,7 @@
 .linksDark {
   color: white;
 }
+
+.darkCard #card {
+  border: 2px soild white !important;
+}
