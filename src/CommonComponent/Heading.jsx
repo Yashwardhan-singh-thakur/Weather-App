@@ -5,7 +5,7 @@ export default function Heading() {
   return (
     <>
       <div className="head">
-        <h1>Weather App</h1>
+        <h1>Live Weather</h1>
         <div className="mode">
           <Modes />
         </div>
